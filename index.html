@@ -1,0 +1,999 @@
+<!doctype html>
+<html class=" overflow-x-hidden" lang="bn">
+    <!--====================head====================-->
+    <head>
+        <meta name="description" content="South Peninsula Hospital Foundation">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#4285f4">
+        <meta property="og:image" content="images/logo/logo.png">
+        <meta property="og:image:type" content="image/jpg">
+        <meta property="og:image:width" content="1024">
+        <meta property="og:image:height" content="729">
+
+
+
+        <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
+        <link rel="icon" href="images/logo/logo.png" type="image/x-icon">
+        <!--------->
+        <title>South Peninsula Hospital Foundation</title>
+
+
+        <!-----Tailwind css---->
+        <link rel="stylesheet" href="output/tailwind.css">
+    </head>
+    <!--====================body====================-->
+    <body x-data="{sticky: true}">
+        <!-- ==========header========== -->
+        <header class=" relative z-50">
+            <!--========-->
+            <div @scroll.window="sticky= (window.pageYOffset > 100) ? false :true"
+                :class="{'fixed drop-shadow-2xl py-0.5' : !sticky,' py-2 pb-4' : sticky}"
+                class="z-50 bg-white duration-500 filter right-0 top-0 left-0">
+                <!--========-->
+                <nav class="container xl:max-w-1175 mx-auto px-5 sm:px-0 flex items-center justify-between relative z-50 gap-5">
+                    <!--====logo====-->
+                    <div :class="{'md:p-7 p-6 -mb-10' : !sticky,'md:p-8 p-5 md:-mb-16 -mb-14' : sticky}" class=" rounded-full bg-white duration-500 ">
+                        <a href="/">
+                            <!--========-->
+                            <img height="100%" width="100%" class="w-auto h-auto" src="images/Logo/logo.png" alt="//">
+                        </a>
+                    </div>
+                    <!--====button====-->
+                    <div>
+                        <button
+                            class="whitespace-nowrap uppercase font-mulish xl:text-1.5xl md:text-xl text-base font-extrabold text-white lg:px-8 xl:py-6 px-6 sm:py-4 py-3 bg-sky-850">Donate
+                            Now</button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!--====================main====================-->
+        <main>
+            <!-- ==========section 001========== -->
+            <section class="duration-1000 bg-cover bg-center bg-no-repeat lg:h-660 h-500 relative" style="background-image: url('images/Home/bg1.jpg');">
+                <!--========-->
+                <div class=" container xl:max-w-1175 mx-auto px-5 sm:px-0 min-h-full flex items-end justify-center relative">
+                    <!--========-->
+                    <div class=" text-white text-center py-20">
+                        <!--========-->
+                        <h1 class=" font-black font-poppins uppercase xl:text-6xl md:text-5xl sm:text-4xl text-3xl">Oysters on the Bay</h1>
+                        <!--========-->
+                        <p class=" font-mulish font-bold xl:text-3xl md:text-2xl sm:text-xl text-lg md:my-7 my-4">Tickets available soon</p>
+                        <!--====button====-->
+                        <div>
+                            <button class="outline-none uppercase font-mulish xl:text-2xl md:text-xl text-base font-extrabold lg:px-8 xl:py-6 px-6 sm:py-4 py-3 bg-amber-300 text-sky-850">DONATE</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ==========section 002========== -->
+            <section class=" relative">
+                <!--========-->
+                <div class=" container xl:max-w-1175 mx-auto px-5 sm:px-0 grid md:grid-cols-2 lg:gap-32 md:gap-20 text-white">
+                    <!--========-->
+                    <div class=" py-6 pb-20 text-center md:text-left">
+                        <!--========-->
+                        <div>
+                            <!--========-->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-20 h-auto text-amber-300  mx-auto md:mx-0" fill="currentColor" viewBox="0 0 24 24">
+                                <title />
+                                <g id="target">
+                                    <path
+                                        d="M20.66,7l1.19-1.19A.47.47,0,0,0,22,5.31.5.5,0,0,0,21.5,5H19V2.5A.5.5,0,0,0,18.69,2a.48.48,0,0,0-.54.11L17,3.34A9.89,9.89,0,0,0,12,2a10.06,10.06,0,1,0,8.66,5ZM18.5,6h1.79l-2,2H16V5.71l2-2V5.5A.5.5,0,0,0,18.5,6ZM18,12a6,6,0,1,1-3-5.18V8.29l-.56.56a4,4,0,1,0,.71.71L15.71,9h1.47A6,6,0,0,1,18,12Zm-3,0a3,3,0,1,1-3-3,3,3,0,0,1,1.73.56l-2.08,2.09a.48.48,0,0,0,0,.7.48.48,0,0,0,.7,0l2.09-2.08A3,3,0,0,1,15,12Zm-3,9A9,9,0,1,1,16.22,4.07L15.15,5.15A.47.47,0,0,0,15,5.5v.18A7,7,0,1,0,18.32,9h.18a.47.47,0,0,0,.35-.15l1.08-1.07A9,9,0,0,1,12,21Z" />
+                                </g>
+                            </svg>
+                        </div>
+                        <!--========-->
+                        <h1 class=" xl:text-4.5xl md:text-4xl uppercase text-3xl font-poppins md:my-8 my-2">OUR MISSION</h1>
+                        <!--========-->
+                        <p class=" xl:text-base md:text-sm text-xs md:w-full w-11/12 mx-auto">The South Peninsula Hospital Foundation is a Nonprofit dedicated to the wellbeing of the people of the Southern Kenai
+                        Peninsula and supporting the community health care mission of the South Peninsula Hospital.</p>
+                    </div>
+                    <!--========-->
+                    <div class=" py-6 pt-0 md:pt-10 md:pb-20 text-center md:text-left">
+                        <!--========-->
+                        <div>
+                            <!--========-->
+                            <img height="100%" width="100%" class="w-20 h-auto mx-auto md:mx-0" src="images/icons/2.png" alt="//">
+                        </div>
+                        <!--========-->
+                        <h1 class=" xl:text-4.5xl md:text-4xl uppercase text-3xl font-poppins md:my-8 my-2">OUR VALUES</h1>
+                        <!--========-->
+                        <p class=" xl:text-base md:text-sm text-xs md:w-full w-11/12 mx-auto">We aim to organize with the community to establish and resolve the greatest barriers to improving community health and
+                        wellbeing.</p>
+                    </div>
+                </div>
+                <!--========-->
+                <div>
+                    <!--========-->
+                    <div class="absolute left-0 right-0 md:right-1/2 top-0 md:bottom-0 bottom-1/2 bg-sky-850 -z-10"></div>
+                    <!--========-->
+                    <div class="absolute right-0 left-0 md:left-1/2 md:top-0 top-1/2 bottom-0 bg-cyan-850 -z-10"></div>
+                    <!--========-->
+                    <div class="flex items-center justify-center absolute md:left-0 md:right-0 -left-20 md:mx-auto md:-bottom-10 top-0 md:top-auto bottom-0">
+                        <!--========-->
+                        <img height="100%" width="100%" class="md:w-48 w-1/2 h-auto transform rotate-90 md:rotate-0" src="images/Logo/logo1.png" alt="//">
+                    </div>
+                </div>
+            </section>
+            <!-- ==========section 003========== -->
+            <section class=" relative">
+                <!--========-->
+                <div class=" container xl:max-w-1175 mx-auto px-5 sm:px-0 grid md:grid-cols-3 gap-6 mt-6">
+                    <!--========-->
+                    <a href="#">
+                        <!--========-->
+                        <div>
+                            <!--========-->
+                            <img height="100%" width="100%" class="w-full h-full object-cover" src="images/Home/1.jpg" alt="//">
+                        </div>
+                        <!--========-->
+                        <div class=" bg-amber-300 py-3 text-center">
+                            <p class=" xl:text-xl md:text-lg text-base text-sky-850 font-mulish font-bold uppercase">About Us</p>
+                        </div>
+                    </a>
+                    <!--========-->
+                    <a href="#">
+                        <!--========-->
+                        <div>
+                            <!--========-->
+                            <img height="100%" width="100%" class="w-full h-full object-cover" src="images/Home/2.jpg" alt="//">
+                        </div>
+                        <!--========-->
+                        <div class=" bg-sky-850 py-3 text-center">
+                            <p class=" xl:text-xl md:text-lg text-base text-white font-mulish font-bold uppercase">What We Do</p>
+                        </div>
+                    </a>
+                    <!--========-->
+                    <a href="#">
+                        <!--========-->
+                        <div>
+                            <!--========-->
+                            <img height="100%" width="100%" class="w-full h-full object-cover" src="images/Home/3.jpg" alt="//">
+                        </div>
+                        <!--========-->
+                        <div class=" bg-cyan-850 py-3 text-center">
+                            <p class=" xl:text-xl md:text-lg text-base text-white font-mulish font-bold uppercase">Ways To Give</p>
+                        </div>
+                    </a>
+                </div>
+                <!--========-->
+                <div class=" container xl:max-w-1175 mx-auto px-5 sm:px-0 grid md:grid-cols-2 gap-10 py-20">
+                    <!--========-->
+                    <div class=" md:order-1 order-2">
+                        <!--========-->
+                        <img height="100%" width="100%" class="w-full h-full object-cover" src="images/Home/4.jpg" alt="//">
+                    </div>
+                    <!--========-->
+                    <div class=" md:order-2 order-1">
+                        <!--========-->
+                        <h1 class="lg:text-3xl text-2xl font-poppins font-black">
+                            <span class="text-sky-850">ABOUT</span>
+                            <span class="text-amber-300">US</span>
+                        </h1>
+                        <!--========-->
+                        <div class="h-1 w-28 bg-sky-850 md:mt-5 mt-4"></div>
+                        <!--========-->
+                        <div class="md:mt-8 mt-5 md:space-y-5 space-y-4 font-mulish lg:text-lg md:text-base text-sm">
+                             <!--========-->
+                             <p><span class=" font-bold text-sky-850">Established in 2003,</span> The South Peninsula Hospital Foundation is a private, non-profit corporation that is dedicated to
+                            the wellbeing of the people of the Southern Kenai Peninsula and supporting the community health care mission of the
+                            South Peninsula Hospital.</p>
+                            <!--========-->
+                            <p>The Foundation is led by a dedicated volunteer board of seven members from around the area, including representatives of
+                            the South Peninsula Hospital Service Area Board, Operating Board, and the Hospital Administration.</p>
+                            <!--========-->
+                            <p>We provide the funding and leadership to tackle the most challenging barriers to community health. Like many
+                            foundations, we fund community initiative and capital projects, but our approach goes beyond traditional fundraising.
+                            Through collaborative community efforts, we bring creativity, discipline, and strategic expertise to the job of
+                            improving health in the Southern Kenai Peninsula.</p>
+                        </div>  
+                    </div>
+                </div>
+            </section>
+            <!-- ==========section 004========== -->
+            <section style="background-image: url('images/Home/bg2.jpg');" class="bg-no-repeat bg-cover bg-center relative">
+                <!--========-->
+                <div class=" bg-cyan-850 absolute top-0 left-0 right-0 bottom-0 bg-opacity-95 z-10"></div>
+                <!--========-->
+                <div class=" container xl:max-w-1175 mx-auto px-5 sm:px-0 py-20 relative z-20">
+                    <!--========-->
+                    <div class=" text-center">
+                        <!--========-->
+                        <h1 class="lg:text-3xl text-2xl font-poppins font-black text-white">What We Do</h1>
+                        <!--========-->
+                        <div class="h-1 w-14 bg-white mx-auto md:mt-5 mt-4"></div>
+                        <!--========-->
+                        <p class=" lg:text-lg md:text-base text-sm w-3/4 mx-auto text-white mt-8">Every aspect of our wellbeing is interconnected. As the 8 Dimensions of Wellness reminds us, focusing on any one area
+                        without regard to the others limits our ability to grow together. We aim to continuously work with community partners to
+                        identify the greatest barriers to community wellbeing and work hard towards solutions and funding. Here are some of the
+                        ways we have been able to do so until now.</p>
+                    </div>
+                    <!--========-->
+                    <div class=" grid md:grid-cols-4 sm:grid-cols-2 items-end grid-cols-1 gap-4 pt-20">
+                        <!--========-->
+                        <div class=" sm:col-span-2 ">
+                            <div x-data="{morecontent:false}"  @click.away="morecontent=false" x-bind:class="{'bg-amber-300':morecontent===true}"
+                                class="bg-white md:px-10 py-6 p-4 text-center filter drop-shadow">
+                                <!--========-->
+                                <div class="h-28 w-28 mx-auto p-4 rounded-full border-8 flex items-center justify-center border-amber-300 bg-cyan-850">
+                                    <!--========-->
+                                    <svg class="h-14 w-14 text-white" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1"
+                                        style="enable-background:new 0 0 100 100;" version="1.1" viewBox="0 0 100 100" xml:space="preserve">
+                                        <path class="st0"
+                                            d="M92.8,51.1L51.2,11.1c-0.6-0.7-1.7-0.7-2.3,0L31.7,27.6v-7.2c0-1.1-0.9-2-2-2h-5.2  c-1.1,0-2,0.9-2,2v16L7.2,51.1c-0.9,1-0.2,2.6,1.2,2.6h12.5c0.9,0,1.5,0.7,1.5,1.5v30.3c0,2.1,1.7,3.8,3.8,3.8h13.6  c0.5,0,0.8-0.4,0.8-0.8v-25c0-1.8,1.5-3.3,3.3-3.3H56c1.8,0,3.3,1.5,3.3,3.3v25c0,0.5,0.4,0.8,0.8,0.8h13.6c2.1,0,3.8-1.7,3.8-3.8  V55.3c0-0.9,0.7-1.5,1.5-1.5h12.4C92.9,53.7,93.7,52.1,92.8,51.1z"
+                                            id="XMLID_406_" />
+                                    </svg>
+                                </div>
+                                <!--========-->
+                                <div class="relative cursor-pointer" @mouseenter="open=true" @mouseout="open=false"
+                                    x-data="{open:false,title:'Housing Access'}">
+                                    <!--========-->
+                                    <h1 class=" font-extrabold font-poppins lg:text-lg text-base md:mt-5 mt-3 text-sky-850 overflow-hidden text-ellipsis whitespace-nowrap"
+                                        x-text="title"></h1>
+                                    <!--========-->
+                                    <p x-show="open"
+                                        class="font-bold font-poppins text-xs text-sky-850 bg-white p-2 rounded border shadow absolute bottom-7 left-0 right-0 text-center"
+                                        x-text="title"></p>
+                                </div>
+                                <!--========-->
+                                <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
+                                    <!--====more data show end====-->
+                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">We understand that a community cannot improve wellness if we experience housing insecurity. We are developing and
+                                    encouraging community-wide discussions in order to come to workable, locally-led solutions to the housing challenges.<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos repellat et esse rem sapiente asperiores inventore harum laudantium, quaerat nesciunt.</p>
+                                    <!--====more data show end====-->
+                                </div>
+                                <!--====button====-->
+                                <div>
+                                    <button x-show="morecontent===false" @click="morecontent=true"
+                                        class="outline-none font-extrabold lg:px-5 lg:py-3 py-2 px-4 lg:text-sm text-xs uppercase font-mulish  bg-amber-300 text-sky-850">READ
+                                        MORE</button>
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <!--========-->
+                        <div>
+                            <div @click.away="morecontent=false" x-data="{morecontent:false}" x-bind:class="{'bg-amber-300':morecontent===true}"
+                                class="bg-white p-4 py-6 text-center filter drop-shadow">
+                                <!--========-->
+                                <div
+                                    class="h-28 w-28 mx-auto p-4 rounded-full border-8 flex items-center justify-center border-amber-300 bg-cyan-850">
+                                    <!--========-->
+                                    <svg class="h-14 w-14 text-white" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" id="Layer_1" viewBox="0 0 64 64">
+                                        <path
+                                            d="M62.97266,14.244l-22-12a2.00342,2.00342,0,0,0-1.916,0L32.1709,5.99988H10a2.0001,2.0001,0,0,0-2,2v40H2a2.0001,2.0001,0,0,0-2,2v5a7.00818,7.00818,0,0,0,7,7H45a7.00818,7.00818,0,0,0,7-7v-16a2,2,0,1,0-4,0v16a3.00328,3.00328,0,0,1-3,3H44v-8a2.0001,2.0001,0,0,0-2-2H12v-38H24.83759L17.05664,14.244a2.01415,2.01415,0,0,0,0,3.51172l9.958,5.43164v8.8125a2.00013,2.00013,0,0,0,1.47364,1.92969l11,3a1.99857,1.99857,0,0,0,1.05273-.00049l10.99512-2.99854a1.99994,1.99994,0,0,0,1.47851-1.93066v-8.8125l3-1.63635v2.44885a2,2,0,1,0,4,0V19.3692l2.958-1.61346A2.01417,2.01417,0,0,0,62.97266,14.244ZM40,57.99988H7a3.00329,3.00329,0,0,1-3-3v-3H40ZM49.01465,30.4696l-9,2.457-9-2.45459V25.3692l8.042,4.38654a2.00213,2.00213,0,0,0,1.916,0l8.042-4.38654Zm7.499-13.74737-16.16986-2.695a1.99992,1.99992,0,0,0-.6582,3.94531l11.13361,1.85572L40.01465,25.72156,22.19141,15.99988,40.01465,6.2782l17.82324,9.72168Z" />
+                                        <circle cx="18" cy="41.99988" r="2" />
+                                    </svg>
+                                </div>
+                                <!--========-->
+                                <div class="relative cursor-pointer" @mouseenter="open=true" @mouseout="open=false"
+                                    x-data="{open:false,title:'Scholarships'}">
+                                    <!--========-->
+                                    <h1 class=" font-extrabold font-poppins lg:text-lg text-base md:mt-5 mt-3 text-sky-850 overflow-hidden text-ellipsis whitespace-nowrap"
+                                        x-text="title"></h1>
+                                    <!--========-->
+                                    <p x-show="open"
+                                        class="font-bold font-poppins text-xs text-sky-850 bg-white p-2 rounded border shadow absolute bottom-7 left-0 right-0 text-center"
+                                        x-text="title"></p>
+                                </div>
+                                <!--========-->
+                                <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
+                                    <!--====more data show end====-->
+                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">We are dedicated to promoting opportunities for students in the area. SPH Foundation currently offers scholarships for
+                                    students looking to earn their CNA certification and another scholarship in partnership with Allied Health. Over two
+                                    decades, we have funded ___ scholarships for local students. We seek to expand these opportunities and with your help to
+                                    fund more fields of study.</p>
+                                    <!--====more data show end====-->
+                                </div>
+                                <!--====button====-->
+                                <div>
+                                    <button x-show="morecontent===false" @click="morecontent=true"
+                                        class="outline-none font-extrabold lg:px-5 lg:py-3 py-2 px-4 lg:text-sm text-xs uppercase font-mulish  bg-amber-300 text-sky-850">READ
+                                        MORE</button>
+                                </div>
+                            
+                            </div>
+                        </div>
+                        <!--========-->
+                        <div>
+                            <div @click.away="morecontent=false" x-data="{morecontent:false}" x-bind:class="{'bg-amber-300':morecontent===true}"
+                                class="bg-white p-4 py-6 text-center filter drop-shadow">
+                                <!--========-->
+                                <div
+                                    class="h-28 w-28 mx-auto p-4 rounded-full border-8 flex items-center justify-center border-amber-300 bg-cyan-850">
+                                    <!--========-->
+                                    <svg class="h-14 w-14 text-white" fill="currentColor" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" id="Layer_1" viewBox="0 0 128 128">
+                                        <title />
+                                        <path
+                                            d="M2,53.00165l5.4707.001,8.71387,18.83887a1.99938,1.99938,0,0,0,1.80176,1.16016H18a1.99842,1.99842,0,0,0,1.80371-1.13672L28.499,53.70477l6.13281,5.75488A1.99433,1.99433,0,0,0,36,60.00165H49.29486a7,7,0,1,0,0-4H36.791l-7.54785-7.083a1.99887,1.99887,0,0,0-3.17187.59473l-8.04,16.792-7.4668-16.14258A2.001,2.001,0,0,0,8.749,49.00262L2,49.00165a2,2,0,0,0,0,4Zm54,2a3,3,0,1,1-3,3A3.00328,3.00328,0,0,1,56,55.00165Z" />
+                                        <path
+                                            d="M18.09,56.91162l4.37-9.13a6.00821,6.00821,0,0,1,9.52-1.78l6.4,6h8.41241a11,11,0,1,1,0,12H36a6.029,6.029,0,0,1-4.11-1.62l-2.14-2.02-6.34,13.23a5.781,5.781,0,0,1-.98,1.45,92.94327,92.94327,0,0,0,18.38,20.33,104.85444,104.85444,0,0,0,22.34,14.44,1.99618,1.99618,0,0,0,1.7,0,106.5349,106.5349,0,0,0,34.41-26.35l-1.01-2.1-2.14,2.02a6.029,6.029,0,0,1-4.11,1.62H81.22a11,11,0,1,1,0-12h8.4l6.4-6a6.00821,6.00821,0,0,1,9.52,1.78l1.69,3.54a51.1027,51.1027,0,0,0,5.98-14.94c2.19-10.41-.25-20.02-7.04-27.79-14.98-17.13-32.46-11.66-42.17-6.35-9.71-5.31-27.19-10.78-42.17,6.35a30.55544,30.55544,0,0,0-7.76,18.67,2.38947,2.38947,0,0,1,.12.22Z" />
+                                        <path
+                                            d="M126,70.00165l-6.749.001a2.001,2.001,0,0,0-1.81543,1.16016l-7.4668,16.14258-8.04-16.792a1.99887,1.99887,0,0,0-3.17187-.59473l-7.54785,7.083H78.70514a7,7,0,1,0,0,4H92a1.99433,1.99433,0,0,0,1.36816-.542L99.501,74.70477l8.69531,18.16016A1.99842,1.99842,0,0,0,110,94.00165h.01367a1.99938,1.99938,0,0,0,1.80176-1.16016l8.71387-18.83887,5.4707-.001a2,2,0,0,0,0-4Zm-54,12a3,3,0,1,1,3-3A3.00328,3.00328,0,0,1,72,82.00165Z" />
+                                    </svg>
+                                </div>
+                                <!--========-->
+                                <div class="relative cursor-pointer" @mouseenter="open=true"@mouseout="open=false" x-data="{open:false,title:'Facility Improvements  for Staff and Patient Wellbeing'}">
+                                    <!--========-->
+                                    <h1 class=" font-extrabold font-poppins lg:text-lg text-base md:mt-5 mt-3 text-sky-850 overflow-hidden text-ellipsis whitespace-nowrap" x-text="title"></h1>
+                                    <!--========-->
+                                    <p x-show="open" class="font-bold font-poppins text-xs text-sky-850 bg-white p-2 rounded border shadow absolute bottom-7 left-0 right-0 text-center" x-text="title"></p>
+                                </div>
+                                <!--========-->
+                                <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
+                                    <!--====more data show end====-->
+                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">Over the years, we have invested to ensure the staff and visitors at SPH have access to facilities.<br>Over the years, we have invested to ensure the staff and visitors at SPH have access to facilities.</p>
+                                    <!--====more data show end====-->
+                                </div>
+                                <!--====button====-->
+                                <div>
+                                    <button x-show="morecontent===false" @click="morecontent=true"
+                                        class="outline-none font-extrabold lg:px-5 lg:py-3 py-2 px-4 lg:text-sm text-xs uppercase font-mulish  bg-amber-300 text-sky-850">READ
+                                        MORE</button>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <!--========-->
+                    <div class=" grid md:grid-cols-4 sm:grid-cols-2 items-start grid-cols-1 gap-4 pt-4">
+                        <!--========-->
+                        <div>
+                            <div @click.away="morecontent=false" x-data="{morecontent:false}" x-bind:class="{'bg-amber-300':morecontent===true}"
+                                class="bg-white p-4 py-6 text-center filter drop-shadow">
+                                <!--========-->
+                                <div
+                                    class="h-28 w-28 mx-auto p-4 rounded-full border-8 flex items-center justify-center border-amber-300 bg-cyan-850">
+                                    <!--========-->
+                                    <svg class="h-14 w-14 text-white" fill="currentColor"
+                                        xmlns:svg="http://www.w3.org/2000/svg" height="512" id="Layer_1" version="1.1" viewBox="0 0 512.00003 512"
+                                        width="512" xml:space="preserve">
+                                        <defs id="defs7" />
+                                        <g id="g2989">
+                                            <g id="g2987" transform="matrix(0.96001425,0,0,0.96001425,10.236759,10.236466)">
+                                                <g id="g13372" transform="translate(11496.003,-34383.999)">
+                                                    <path
+                                                        d="m -11431.116,34628.001 a 8.4665247,8.4665247 0 0 0 -4.828,1.852 c -6.475,5.153 -12.541,10.646 -18.089,16.436 -35.799,37.355 -44.428,82.284 -27.876,122.223 16.55,39.939 56.862,74.51 115.84,96.099 a 8.4665247,8.4665247 0 0 0 0.06,0.03 l 1.719,0.628 0.03,0 c 117.809,42.295 266.993,19.138 338.164,-55.126 27.428,-28.621 39.136,-61.553 35.417,-93.487 -3.719,-31.932 -22.535,-62.237 -53.472,-86.806 a 8.4665247,8.4665247 0 0 0 -11.872,11.905 c 14.451,17.984 21.268,37.341 20.403,56.713 -0.864,19.373 -9.397,39.141 -27.348,57.872 -55.992,58.426 -183.238,79.785 -281.186,44.609 l -1.521,-0.529 c 0,0 -0.02,0 -0.03,0 -46.822,-17.146 -77.72,-43.734 -91.072,-71.957 -13.353,-28.231 -10.362,-58.158 12.666,-86.675 a 8.4665247,8.4665247 0 0 0 -7.011,-13.79 z"
+                                                        id="path3886-5-8"
+                                                        style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:16;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+                                                    <path
+                                                        d="m -11111.094,34841.719 c -16.031,0 -29.031,13 -29.031,29.031 0,16.031 13,29.031 29.031,29.031 16.031,0 29.032,-13 29.032,-29.031 0,-16.031 -13.001,-29.031 -29.032,-29.031 z m -9.562,61.687 c -9.5,0.07 -18.994,0.398 -29.125,1.782 -18.271,2.502 -19.757,26.163 -19.563,59.687 2.205,45.987 -2.263,62.951 19.563,75.219 l 0,129.031 c 0,10.787 8.712,19.469 19.5,19.469 9.568,0 17.458,-6.803 19.125,-15.875 0.01,0.03 0.02,0.05 0.03,0.09 0.01,-0.04 0,-0.05 0,-0.09 0.01,0.03 0.02,0.05 0.03,0.09 0.01,-0.03 0.02,-0.05 0.03,-0.09 1.667,9.072 9.556,15.875 19.124,15.875 10.788,0 19.469,-8.682 19.469,-19.469 l 0,-129.031 c 21.826,-12.268 17.389,-29.232 19.594,-75.219 0.195,-33.524 -1.323,-57.185 -19.594,-59.687 -13.508,-1.85 -25.837,-1.772 -38.625,-1.782 l -0.03,0 c -3.197,0 -6.365,-0.02 -9.531,0 z"
+                                                        id="path13972-9" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                                                        transform="translate(0,-448)" />
+                                                    <path
+                                                        d="m -6380.9312,-2454.2483 a 111.08005,111.08005 0 1 1 -222.1601,0 111.08005,111.08005 0 1 1 222.1601,0 z"
+                                                        id="path13978-3" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                                                        transform="matrix(0.26131656,0,0,0.26131656,-9672.4202,35064.082)" />
+                                                    <path
+                                                        d="m -11368.914,34455.4 c -12.788,0 -25.13,-0.07 -38.638,1.775 -18.272,2.502 -19.765,26.164 -19.57,59.688 2.205,45.987 -2.257,62.962 19.57,75.23 l 0,129.023 c 0,10.787 8.691,19.478 19.478,19.478 9.568,0 17.47,-6.812 19.137,-15.884 0.01,0.03 0.01,0.07 0.02,0.114 0.01,-0.04 0.01,-0.07 0.02,-0.114 0.01,0.03 0.01,0.07 0.02,0.114 0.01,-0.03 0.01,-0.07 0.02,-0.114 1.668,9.072 9.57,15.884 19.138,15.884 10.788,0 19.479,-8.691 19.479,-19.478 l 0,-129.023 c 21.826,-12.268 17.364,-29.243 19.569,-75.23 0.195,-33.524 -1.298,-57.186 -19.569,-59.688 -13.508,-1.85 -25.851,-1.765 -38.639,-1.775 l -0.02,0 -0.02,0 z"
+                                                        id="path13980-5" style="fill:currentColor;fill-opacity:1;stroke:none" />
+                                                    <path
+                                                        d="m -11239.986,34444.719 c -16.031,0 -29.031,13 -29.031,29.031 0,16.031 13,29.031 29.031,29.031 16.031,0 29.032,-13 29.032,-29.031 0,-16.031 -13.001,-29.031 -29.032,-29.031 z m -9.562,61.687 c -9.5,0.07 -18.994,0.398 -29.125,1.782 -18.271,2.502 -19.757,26.163 -19.563,59.687 2.205,45.987 -2.263,62.951 19.563,75.219 l 0,129.031 c 0,10.787 8.712,19.469 19.5,19.469 9.568,0 17.458,-6.803 19.125,-15.875 0.01,0.03 0.02,0.05 0.03,0.09 0.01,-0.04 0,-0.05 0,-0.09 0.01,0.03 0.02,0.05 0.03,0.09 0.01,-0.03 0.02,-0.05 0.03,-0.09 1.667,9.072 9.556,15.875 19.124,15.875 10.788,0 19.469,-8.682 19.469,-19.469 l 0,-129.031 c 21.826,-12.268 17.389,-29.232 19.594,-75.219 0.195,-33.524 -1.323,-57.185 -19.594,-59.687 -13.508,-1.85 -25.837,-1.772 -38.625,-1.782 l -0.03,0 c -3.197,0 -6.365,-0.02 -9.531,0 z"
+                                                        id="path13370" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </div>
+                                <!--========-->
+                                <div class="relative cursor-pointer" @mouseenter="open=true" @mouseout="open=false"
+                                    x-data="{open:false,title:'Community Health'}">
+                                    <!--========-->
+                                    <h1 class=" font-extrabold font-poppins lg:text-lg text-base md:mt-5 mt-3 text-sky-850 overflow-hidden text-ellipsis whitespace-nowrap"
+                                        x-text="title"></h1>
+                                    <!--========-->
+                                    <p x-show="open"
+                                        class="font-bold font-poppins text-xs text-sky-850 bg-white p-2 rounded border shadow absolute bottom-7 left-0 right-0 text-center"
+                                        x-text="title"></p>
+                                </div>
+                                <!--========-->
+                                <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
+                                    <!--====more data show end====-->
+                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">SPHF has been committed to building and sponsoring programs which have contributed to the wellbeing of members in our
+                                    region,<br>SPHF has been committed to building and sponsoring programs which have contributed to the wellbeing of members in our
+                                    region,</p>
+                                    <!--====more data show end====-->
+                                </div>
+                                <!--====button====-->
+                                <div>
+                                    <button x-show="morecontent===false" @click="morecontent=true"
+                                        class="outline-none font-extrabold lg:px-5 lg:py-3 py-2 px-4 lg:text-sm text-xs uppercase font-mulish  bg-amber-300 text-sky-850">READ
+                                        MORE</button>
+                                </div>
+                        
+                            </div>
+                        </div>
+                        <!--========-->
+                        <div>
+                            <div @click.away="morecontent=false" x-data="{morecontent:false}" x-bind:class="{'bg-amber-300':morecontent===true}"
+                                class="bg-white p-4 py-6 text-center filter drop-shadow">
+                                <!--========-->
+                                <div
+                                    class="h-28 w-28 mx-auto p-4 rounded-full border-8 flex items-center justify-center border-amber-300 bg-cyan-850">
+                                    <!--========-->
+                                    <svg class="h-14 w-14 text-white" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" version="1.1" viewBox="0 0 468 468" xml:space="preserve">
+                                        <g>
+                                            <ellipse cx="406.933" cy="276.739" rx="13.992" ry="13.981" style="fill: currentColor;" />
+                                            <path
+                                                d="M431.007,138.684H318.229c6.842-13.107,10.715-28.007,10.715-43.812C328.945,42.476,286.436,0,234,0   s-94.945,42.476-94.945,94.872c0,15.806,3.873,30.706,10.715,43.812H36.993c-6.624,0-11.993,5.366-11.993,11.984v76.297   c0,6.618,5.369,11.984,11.993,11.984h12.115v217.067c0,6.618,5.369,11.984,11.993,11.984h345.798   c6.624,0,11.993-5.366,11.993-11.984V324.834c0-6.618-5.369-11.984-11.993-11.984s-11.993,5.366-11.993,11.984v119.199H73.094   V238.95h357.913c6.624,0,11.993-5.366,11.993-11.984v-76.297C443,144.05,437.631,138.684,431.007,138.684z M231.762,100.219   c-11.139-4.372-21.43-10.234-21.43-23.334c0-10.619,7.55-18.874,18.079-21.584V42.705h13.538V54.47   c5.49,0.619,11.134,2.397,15.676,5.644l-5.066,13.38c-5.127-3.13-10.393-5.368-16.526-5.368c-7.156,0-9.706,3.784-9.706,7.326   c0,3.62,1.697,6.038,11.321,10.19c2.688,1.103,7.007,2.886,1.646,0.698c9.429,3.849,20.117,10.12,20.117,24.522   c0,10.977-6.932,19.821-18.966,22.651v13.526h-13.538v-12.781c-6.286-0.607-13.483-2.554-18.318-6.92l4.871-13.596   c5.605,3.944,11.682,6.713,18.657,6.713c6.727,0,11.261-3.52,11.261-8.758C243.378,108.188,241.991,104.37,231.762,100.219z    M419.014,214.982H48.986v-52.33h118.591C184.7,179.409,208.14,189.744,234,189.744c25.86,0,49.3-10.335,66.423-27.092h118.591  V214.982z" />
+                                        </g>
+                                    </svg>
+                                </div>
+                                <!--========-->
+                                <div class="relative cursor-pointer" @mouseenter="open=true" @mouseout="open=false"
+                                    x-data="{open:false,title:'Annual Fundraiser'}">
+                                    <!--========-->
+                                    <h1 class=" font-extrabold font-poppins lg:text-lg text-base md:mt-5 mt-3 text-sky-850 overflow-hidden text-ellipsis whitespace-nowrap"
+                                        x-text="title"></h1>
+                                    <!--========-->
+                                    <p x-show="open"
+                                        class="font-bold font-poppins text-xs text-sky-850 bg-white p-2 rounded border shadow absolute bottom-7 left-0 right-0 text-center"
+                                        x-text="title"></p>
+                                </div>
+                                <!--========-->
+                                <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
+                                    <!--====more data show end====-->
+                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">Every year, the Foundation hosts an opportunity to mingle, connect, and celebrate our accomplishments.<br>Every year, the Foundation hosts an opportunity to mingle, connect, and celebrate our accomplishments.</p>
+                                    <!--====more data show end====-->
+                                </div>
+                                <!--====button====-->
+                                <div>
+                                    <button x-show="morecontent===false" @click="morecontent=true"
+                                        class="outline-none font-extrabold lg:px-5 lg:py-3 py-2 px-4 lg:text-sm text-xs uppercase font-mulish  bg-amber-300 text-sky-850">READ
+                                        MORE</button>
+                                </div>
+                        
+                            </div>
+                        </div>
+                        <!--========-->
+                        <div>
+                            <div @click.away="morecontent=false" x-data="{morecontent:false}" x-bind:class="{'bg-amber-300':morecontent===true}"
+                                class="bg-white p-4 py-6 text-center filter drop-shadow">
+                                <!--========-->
+                                <div
+                                    class="h-28 w-28 mx-auto p-4 rounded-full border-8 flex items-center justify-center border-amber-300 bg-cyan-850">
+                                    <!--========-->
+                                    <svg class="h-14 w-14 text-white" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 64 64"  id="Layer_1" version="1.1" viewBox="0 0 64 64"  xml:space="preserve">
+                                        <g>
+                                            <path
+                                                d="M34.464,36.664v-1.116c0-1.361-1.103-2.464-2.463-2.464c-1.361,0-2.464,1.103-2.464,2.464v1.116   c0,1.361,1.103,2.464,2.464,2.464C33.36,39.128,34.464,38.025,34.464,36.664z" />
+                                            <path
+                                                d="M36.154,38.027c-0.546,1.787-2.191,3.099-4.153,3.099c-1.963,0-3.608-1.312-4.154-3.099H10.878   c-1.071,0-2.083-0.249-2.991-0.681v11.267c0,2.2,1.8,4,4,4h40.226c2.2,0,4-1.8,4-4V37.347c-0.909,0.432-1.92,0.681-2.991,0.681   H36.154z" />
+                                            <path
+                                                d="M52.955,17.795h-9.601c-0.58-3.626-3.721-6.408-7.508-6.408h-7.693c-3.787,0-6.927,2.782-7.508,6.408h-9.6   c-2.292,0-4.167,1.8-4.167,4v9.233c0,2.209,1.791,4,4,4h16.78c0.057-1.151,0.551-2.185,1.332-2.933   c0.024-0.023,0.052-0.041,0.077-0.063c0.173-0.159,0.353-0.309,0.55-0.439c0.07-0.047,0.15-0.079,0.223-0.121   c0.162-0.093,0.322-0.19,0.497-0.262c0.137-0.057,0.285-0.09,0.429-0.133c0.124-0.037,0.242-0.086,0.371-0.112   c0.279-0.057,0.568-0.087,0.863-0.087c0.296,0,0.584,0.031,0.863,0.087c0.128,0.026,0.246,0.075,0.37,0.112   c0.144,0.043,0.292,0.076,0.429,0.134c0.174,0.072,0.333,0.168,0.495,0.261c0.074,0.043,0.154,0.075,0.225,0.122   c0.197,0.129,0.376,0.279,0.549,0.438c0.025,0.023,0.054,0.041,0.078,0.065c0.782,0.748,1.275,1.782,1.332,2.933h16.78   c2.209,0,4-1.791,4-4v-9.233C57.122,19.595,55.247,17.795,52.955,17.795z M24.496,17.795c0.51-1.541,1.947-2.664,3.657-2.664h7.693   c1.71,0,3.147,1.123,3.657,2.664H24.496z" />
+                                        </g>
+                                    </svg>
+                                </div>
+                                <!--========-->
+                                <div class="relative cursor-pointer" @mouseenter="open=true" @mouseout="open=false"
+                                    x-data="{open:false,title:'Specialty Grant Projects'}">
+                                    <!--========-->
+                                    <h1 class=" font-extrabold font-poppins lg:text-lg text-base md:mt-5 mt-3 text-sky-850 overflow-hidden text-ellipsis whitespace-nowrap"
+                                        x-text="title"></h1>
+                                    <!--========-->
+                                    <p x-show="open"
+                                        class="font-bold font-poppins text-xs text-sky-850 bg-white p-2 rounded border shadow absolute bottom-7 left-0 right-0 text-center"
+                                        x-text="title"></p>
+                                </div>
+                                <!--========-->
+                                <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
+                                    <!--====more data show end====-->
+                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">The SPHF understands that with any hospital budget, there are requests which don’t get funded. Working hand-in-hand with
+                                    the Hospital,<br>The SPHF understands that with any hospital budget, there are requests which don’t get funded. Working hand-in-hand with
+                                    the Hospital,</p>
+                                    <!--====more data show end====-->
+                                </div>
+                                <!--====button====-->
+                                <div>
+                                    <button x-show="morecontent===false" @click="morecontent=true"
+                                        class="outline-none font-extrabold lg:px-5 lg:py-3 py-2 px-4 lg:text-sm text-xs uppercase font-mulish  bg-amber-300 text-sky-850">READ
+                                        MORE</button>
+                                </div>
+                        
+                            </div>
+                        </div>
+                        <!--========-->
+                        <div>
+                            <div @click.away="morecontent=false" x-data="{morecontent:false}" x-bind:class="{'bg-amber-300':morecontent===true}"
+                                class="bg-white p-4 py-6 text-center filter drop-shadow">
+                                <!--========-->
+                                <div
+                                    class="h-28 w-28 mx-auto p-4 rounded-full border-8 flex items-center justify-center border-amber-300 bg-cyan-850">
+                                    <!--========-->
+                                    <svg class="h-14 w-14 text-white" fill="currentColor" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24"
+                                        id="Layer_1" version="1.1" viewBox="0 0 24 24" xml:space="preserve">
+                                        <g>
+                                            <path
+                                                d="M7.9,5.6c0.4-2.1-1.4-3.9-3.5-3.5C3.2,2.3,2.3,3.2,2.1,4.4C1.7,6.5,3.5,8.3,5.6,7.9C6.8,7.7,7.7,6.8,7.9,5.6z" />
+                                            <circle cx="19" cy="3.5" r="1.5" />
+                                            <path
+                                                d="M21.9,13.7L21,10.9V7c0-0.6-0.4-1-1-1h-2h0h-2.4c-0.6,0-1,0.4-1,1c0,0.6,0.4,1,1,1h2.2c-2.2,1.6-6.2,1.5-7.4,1.4   c-0.3,0-0.5-0.1-0.7-0.2C8.9,8.8,7.8,9.1,7.3,9.9c-0.6,0.9-0.4,2.1,0.6,2.8c0.1,0.1,2.3,1.8,2.1,7.3c0,1.1,0.8,2,1.9,2.1   c0.1,0,0.1,0,0.2,0c1.1,0,1.9-0.9,1.9-2c0.1-4.1-0.8-6.8-1.9-8.5c0.1,0,0.2,0,0.3,0c1.7,0,3.7-0.3,5.6-1.3v0.6l-1,2.8   c-0.2,0.5,0.1,1.1,0.6,1.3c0.5,0.2,1.1-0.1,1.3-0.6l0.6-1.7l0.6,1.7c0.2,0.5,0.7,0.8,1.3,0.6C21.8,14.8,22.1,14.2,21.9,13.7z" />
+                                        </g>
+                                    </svg>
+                                </div>
+                                <!--========-->
+                                <div class="relative cursor-pointer" @mouseenter="open=true" @mouseout="open=false"
+                                    x-data="{open:false,title:'Childcare Access'}">
+                                    <!--========-->
+                                    <h1 class=" font-extrabold font-poppins lg:text-lg text-base md:mt-5 mt-3 text-sky-850 overflow-hidden text-ellipsis whitespace-nowrap"
+                                        x-text="title"></h1>
+                                    <!--========-->
+                                    <p x-show="open"
+                                        class="font-bold font-poppins text-xs text-sky-850 bg-white p-2 rounded border shadow absolute bottom-7 left-0 right-0 text-center"
+                                        x-text="title"></p>
+                                </div>
+                                <!--========-->
+                                <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
+                                    <!--====more data show end====-->
+                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">Working with a wide variety of community members, we have prioritized regional conversations on organization, funding,
+                                    and access to affordable childcare.<br>Working with a wide variety of community members, we have prioritized regional conversations on organization, funding,
+                                    and access to affordable childcare.</p>
+                                    <!--====more data show end====-->
+                                </div>
+                                <!--====button====-->
+                                <div>
+                                    <button x-show="morecontent===false" @click="morecontent=true"
+                                        class="outline-none font-extrabold lg:px-5 lg:py-3 py-2 px-4 lg:text-sm text-xs uppercase font-mulish  bg-amber-300 text-sky-850">READ
+                                        MORE</button>
+                                </div>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ==========section 005========== -->
+            <section class=" relative py-20 border-b-4 border-amber-300">
+                <!--========-->
+                <div>
+                    <!--========-->
+                    <h1 class="lg:text-3xl text-2xl font-poppins font-black text-center">
+                        <span class="text-sky-850">Ways</span>
+                        <span class="text-amber-300">To Give</span>
+                    </h1>
+                    <!--========-->
+                    <div class="h-1 w-14 bg-sky-850 md:mt-5 mt-4 mx-auto"></div>
+                </div>
+                <!--========-->
+                <div class=" container xl:max-w-1175 mx-auto px-5 sm:px-0 grid md:grid-cols-2 gap-10 pt-10">
+                    <!--========-->
+                    <div class=" md:space-y-5 space-y-4 font-mulish lg:text-lg md:text-base text-sm">
+                        <!--========-->
+                        <p>There are many ways individuals and families can partner with us to meet charitable giving goals. Together, we can
+                        create giving plans that maximize the impacts of your gifts today and in the future.</p>
+                        <!--========-->
+                        <p>Of course the greatest gift we can ask for is your time and energy in helping us bring people together, evaluate the
+                        community’s greatest needs, and tackle the barriers we come across. The Foundation understands that we all have
+                        different skill sets to offer, and we welcome you sharing yours. Whether you love organizing events, communicating with
+                        people, graphic design, writing cards, or any other passion, we want to work with you!</p>
+                        <!--========-->
+                        <p>Naturally, our time and energy is often our most precious resource. When you find yourself spread thin, we want to offer
+                        you a chance to participate with your philanthropy.</p>
+                        <!--========-->
+                        <p>Of the diverse ways to participate with your donation of dollars, we want to work closely with you to find the best
+                        application based on your background, your passion, and giving you an overview of the existing efforts in the region.
+                        See below for a list of potential options for your gifts.</p>
+                    </div>
+                    <!--========-->
+                    <div>
+                        <!--========-->
+                        <img height="100%" width="100%" class="w-full h-full object-cover" src="images/Home/5.jpg" alt="//">
+                    </div>
+                </div>
+                <!--========-->
+                <div x-data="{tab:'tab1'}" class=" container xl:max-w-1175 mx-auto px-5 sm:px-0 pt-10">
+                    <!--====button====-->
+                    <div class=" grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-4">
+                        <!--========-->
+                        <button @click="tab='tab1'" :class="{'bg-amber-300 border-transparent':tab==='tab1'}" class="bg-white outline-none border border-sky-850 text-sky-850 p-4 text-center font-poppins font-bold xl:text-lg md:text-base text-sm relative">
+                            <!--========-->
+                            <span>Donor-<br> Advised Funds</span>
+                            <!--========-->
+                            <div x-show="tab==='tab1'" class=" h-5 w-5 bg-amber-300 transform rotate-45 absolute left-0 right-0 mx-auto -bottom-2.5"></div>
+                        </button>
+                        <!--========-->
+                        <button @click="tab='tab2'" :class="{'bg-amber-300 border-transparent':tab==='tab2'}" class="bg-white outline-none border border-sky-850 text-sky-850 p-4 text-center font-poppins font-bold xl:text-lg md:text-base text-sm relative">
+                            <!--========-->
+                            <span>IRA Charitable<br>Distributions</span>
+                            <!--========-->
+                            <div x-show="tab==='tab2'" class=" h-5 w-5 bg-amber-300 transform rotate-45 absolute left-0 right-0 mx-auto -bottom-2.5"></div>
+                        </button>
+                        <!--========-->
+                        <button @click="tab='tab3'" :class="{'bg-amber-300 border-transparent':tab==='tab3'}" class="bg-white outline-none border border-sky-850 text-sky-850 p-4 text-center font-poppins font-bold xl:text-lg md:text-base text-sm relative">
+                            <!--========-->
+                            <span>Planned<br> Giving</span>
+                            <!--========-->
+                            <div x-show="tab==='tab3'" class=" h-5 w-5 bg-amber-300 transform rotate-45 absolute left-0 right-0 mx-auto -bottom-2.5"></div>
+                        </button>
+                        <!--========-->
+                        <button @click="tab='tab4'" :class="{'bg-amber-300 border-transparent':tab==='tab4'}" class="bg-white outline-none border border-sky-850 text-sky-850 p-4 text-center font-poppins font-bold xl:text-lg md:text-base text-sm relative">
+                            <!--========-->
+                            <span>Business<br> Development</span>
+                            <!--========-->
+                            <div x-show="tab==='tab4'" class=" h-5 w-5 bg-amber-300 transform rotate-45 absolute left-0 right-0 mx-auto -bottom-2.5"></div>
+                        </button>
+                        <!--========-->
+                        <button @click="tab='tab5'" :class="{'bg-amber-300 border-transparent':tab==='tab5'}" class="bg-white outline-none border border-sky-850 text-sky-850 p-4 text-center font-poppins font-bold xl:text-lg md:text-base text-sm relative">
+                            <!--========-->
+                            <span>Unrestricted: Area<br> of Greatest Need</span>
+                            <!--========-->
+                            <div x-show="tab==='tab5'" class=" h-5 w-5 bg-amber-300 transform rotate-45 absolute left-0 right-0 mx-auto -bottom-2.5"></div>
+                        </button>
+                    </div>
+                    <!--====contents====-->
+                    <div>
+                        <!--====contents 01====-->
+                        <div x-show="tab==='tab1'" 
+                        x-transition:enter="transition ease-in duration-200"
+                        x-transition:enter-start="opacity-0 transform translate-y-4"
+                        x-transition:enter-end="opacity-100 transform translate-y-none"
+                        class=" grid sm:grid-cols-2 grid-cols-1 gap-4 py-16 items-center">
+                            <!--========-->
+                            <div class="lg:pr-16 md:pr-8 sm:order-1 order-2">
+                                <!--========-->
+                                <h1 class=" lg:text-2xl md:text-xl text-lg font-bold font-poppins text-sky-850 md:mb-5 mb-3">Donor - Advised Funds</h1>
+                                <!--========-->
+                                <div class=" w-16 h-0.5 bg-sky-850 md:mb-10 mb-5"></div>
+                                <!--========-->
+                                <p class=" lg:text-lg md:text-sm text-xs font-mulish">Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                                    ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                                    ratione
+                                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci velit,
+                                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                            </div> 
+                            <!--========-->
+                            <div class=" grid grid-cols-5 gap-4 sm:order-2 order-1">
+                                <!--========-->
+                                <div class=" col-span-3 space-y-4">
+                                    <!--========-->
+                                    <img height="100%" width="100%" class="w-full h-auto object-fill" src="images/Home/9.jpg" alt="//">
+                                    <!--========-->
+                                    <img height="100%" width="100%" class="w-full h-auto object-fill" src="images/Home/10.jpg" alt="//">
+                                </div>
+                                <!--========-->
+                                <div class="col-span-2 space-y-5 py-10 flex items-center">
+                                    <!--========-->
+                                    <img height="100%" width="100%" class="w-full h-3/5 object-fill" src="images/Home/11.jpg" alt="//">
+                                </div>
+                            </div>
+                        </div>
+                        <!--====contents 02====-->
+                        <div x-show="tab==='tab2'" 
+                        x-transition:enter="transition ease-in duration-200"
+                        x-transition:enter-start="opacity-0 transform translate-y-4"
+                        x-transition:enter-end="opacity-100 transform translate-y-none"
+                        class=" grid sm:grid-cols-2 grid-cols-1 gap-4 py-16 items-center">
+                            <!--========-->
+                            <div class=" grid grid-cols-5 gap-4">
+                                <!--========-->
+                                <div class=" col-span-3 space-y-4">
+                                    <!--========-->
+                                    <img height="100%" width="100%" class="w-full h-auto object-fill" src="images/Home/6.jpg" alt="//">
+                                    <!--========-->
+                                    <img height="100%" width="100%" class="w-full h-auto object-fill" src="images/Home/7.jpg" alt="//">
+                                </div>
+                                <!--========-->
+                                <div class="col-span-2 space-y-5 py-10">
+                                    <!--========-->
+                                    <img height="100%" width="100%" class="w-full h-1/2 object-fill" src="images/Home/1.jpg" alt="//">
+                                    <!--========-->
+                                    <img height="100%" width="100%" class="w-full h-1/2  object-fill" src="images/Home/3.jpg" alt="//">
+                                </div>
+                            </div>
+                            <!--========-->
+                            <div class="lg:pl-16 md:pl-8">
+                                <!--========-->
+                                <h1 class=" lg:text-2xl md:text-xl text-lg font-bold font-poppins text-sky-850 md:mb-5 mb-3">IRA Charitable
+                                    Distributions</h1>
+                                <!--========-->
+                                <div class=" w-16 h-0.5 bg-sky-850 md:mb-10 mb-5"></div>
+                                <!--========-->
+                                <p class=" lg:text-lg md:text-sm text-xs font-mulish">Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                                    ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                                    ratione
+                                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci velit,
+                                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                            </div>
+                        </div>
+                        <!--====contents 03====-->
+                        <div x-show="tab==='tab3'" 
+                        x-transition:enter="transition ease-in duration-200"
+                        x-transition:enter-start="opacity-0 transform translate-y-4"
+                        x-transition:enter-end="opacity-100 transform translate-y-none"
+                        class=" grid sm:grid-cols-2 grid-cols-1 gap-4 py-16 items-center">
+                            <!--========-->
+                            <div>
+                                <!--========-->
+                                <img height="100%" width="100%" class="w-full h-auto object-fill" src="images/Home/8.jpg" alt="//">
+                            </div>
+                            <!--========-->
+                            <div class="lg:pl-16 md:pl-8">
+                                <!--========-->
+                                <h1 class=" lg:text-2xl md:text-xl text-lg font-bold font-poppins text-sky-850 md:mb-5 mb-3">Planned Giving</h1>
+                                <!--========-->
+                                <div class=" w-16 h-0.5 bg-sky-850 md:mb-10 mb-5"></div>
+                                <!--========-->
+                                <p class=" lg:text-lg md:text-sm text-xs font-mulish">Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                                    ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                                    ratione
+                                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci velit,
+                                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                            </div>
+                        </div>
+                        <!--====contents 04====-->
+                        <div x-show="tab==='tab4'" 
+                        x-transition:enter="transition ease-in duration-200"
+                        x-transition:enter-start="opacity-0 transform translate-y-4"
+                        x-transition:enter-end="opacity-100 transform translate-y-none"
+                        class=" grid sm:grid-cols-2 grid-cols-1 gap-4 py-16 items-center">
+                            
+                            <!--========-->
+                            <div class="lg:pr-16 md:pr-8 sm:order-1 order-2">
+                                <!--========-->
+                                <h1 class=" lg:text-2xl md:text-xl text-lg font-bold font-poppins text-sky-850 md:mb-5 mb-3">Business Development</h1>
+                                <!--========-->
+                                <div class=" w-16 h-0.5 bg-sky-850 md:mb-10 mb-5"></div>
+                                <!--========-->
+                                <p class=" lg:text-lg md:text-sm text-xs font-mulish">Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                                    ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                                    ratione
+                                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci velit,
+                                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                            </div>
+                            <!--========-->
+                            <div class=" sm:order-2 order-1">
+                                <!--========-->
+                                <img height="100%" width="100%" class="w-full h-auto object-fill" src="images/Home/12.jpg" alt="//">
+                            </div>
+                        </div>
+                        <!--====contents 05====-->
+                        <div x-show="tab==='tab5'" 
+                            x-transition:enter="transition ease-in duration-200"
+                            x-transition:enter-start="opacity-0 transform translate-y-4"
+                            x-transition:enter-end="opacity-100 transform translate-y-none"
+                            class=" grid sm:grid-cols-2 grid-cols-1 gap-4 py-16 items-center">
+                            <!--========-->
+                            <div>
+                                <!--========-->
+                                <img height="100%" width="100%" class="w-full h-auto object-fill" src="images/Home/5.jpg" alt="//">
+                            </div>
+                            <!--========-->
+                            <div class="lg:pl-16 md:pl-8">
+                                <!--========-->
+                                <h1 class=" lg:text-2xl md:text-xl text-lg font-bold font-poppins text-sky-850 md:mb-5 mb-3">Unrestricted: Area
+                                of Greatest Need</h1>
+                                <!--========-->
+                                <div class=" w-16 h-0.5 bg-sky-850 md:mb-10 mb-5"></div>
+                                <!--========-->
+                                <p class=" lg:text-lg md:text-sm text-xs font-mulish">Sed ut perspiciatis unde omnis iste natus error sit
+                                    voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                                    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                                    ipsam
+                                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                                    ratione
+                                    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+                                    adipisci velit,
+                                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--========-->
+                <div>
+                    <!--========-->
+                    <img height="100%" width="100%" class="absolute bottom-0 right-0 -z-10 w-auto h-auto object-fill" src="images/Home/13.png" alt="//">
+                </div>
+            </section>
+        </main>
+        <!--====================footer====================-->
+        <footer class="bg-zinc-100 py-10 font-ibm-plex-sans">
+            <!--========-->
+            <div class=" container xl:max-w-1175 mx-auto px-5 sm:px-0 grid lg:grid-cols-5 grid-cols-1 gap-10">
+                <!--========-->
+                <div class="md:col-span-3 grid md:grid-cols-4 grid-cols-1 md::gap-5 pb-5 lg:pb-0 gap-10 lg:border-b-2 border-sky-850">
+                    <!--========-->
+                    <div>
+                        <!--====logo====-->
+                        <a href="/">
+                            <!--========-->
+                            <img height="100%" width="100%" class="w-auto h-auto" src="images/Logo/logo.png" alt="//">
+                        </a>
+                    </div>
+                    <!--========-->
+                    <div class="md:order-2 order-3 md:col-span-2">
+                        <!--========-->
+                        <ul class="space-y-2 mb-8">
+                            <!--========-->
+                            <li class=" uppercase font-bold text-lg mb-3 text-sky-850"> CONTACT US</li>
+                            <!--========-->
+                            <li class=" flex items-center gap-4 text-sm">
+                                <!--========-->
+                                <div>
+                                    <!--========-->
+                                    <div class=" h-7 w-7 flex items-center justify-center rounded-full bg-sky-850 text-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-3 w-3" viewBox="0 0 16 16">
+                                            <path
+                                                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <!--========-->
+                                <div>
+                                    <!--========-->
+                                    <p>7726 Winegard Rd 2nd Floor AV10</p>
+                                    <!--========-->
+                                    <p>Orlando, FL 32809</p>
+                                </div>
+                            </li>
+                            <!--========-->
+                            <li>
+                                <!--========-->
+                                <a class=" flex items-center gap-4 text-sm" href="tel:+18888888888">
+                                    <!--========-->
+                                    <div>
+                                        <!--========-->
+                                        <div class=" h-7 w-7 flex items-center justify-center rounded-full bg-sky-850 text-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd"
+                                                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                    
+                                    <!--========-->
+                                    <div>
+                                        <!--========-->
+                                        <p>Call Us</p>
+                                        <!--========-->
+                                        <p>+1 888 888 8888</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <!--========-->
+                            <li>
+                                <!--========-->
+                                <a class=" flex items-center gap-4 text-sm" href="mailto:info@happyclaws-luckypaws.com">
+                                    <!--========-->
+                                    <div>
+                                        <!--========-->
+                                        <div class=" h-7 w-7 flex items-center justify-center rounded-full bg-sky-850 text-white">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-4 w-4" viewBox="0 0 16 16">
+                                                <path
+                                                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                    
+                                    <!--========-->
+                                    <div>
+                                        <!--========-->
+                                        <p>E mail Us</p>
+                                        <!--========-->
+                                        <p>info@southpeninsulahospital.com</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!--========-->
+                        <div>
+                            <!--========-->
+                            <p class=" uppercase font-bold text-lg mb-3 text-sky-850">FOLLOW US</p>
+                            <!--========-->
+                            <div class=" flex items-center space-x-3">
+                                <!--========-->
+                                <a href="#">
+                                    <svg class="h-8 w-8 text-sky-850" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path
+                                            d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" />
+                                    </svg>
+                                </a>
+                                <!--========-->
+                                <a href="#">
+                                    <svg class="h-8 w-8 text-sky-850" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path
+                                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                    </svg>
+                                </a>
+                                <!--========-->
+                                <a href="#">
+                                    <svg class="h-8 w-8 text-sky-850" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                        <path
+                                            d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--========-->
+                    <div class="md:order-3 order-2">
+                        <!--========-->
+                        <ul class="space-y-2 uppercase">
+                            <!--========-->
+                            <li class=" font-bold text-lg mb-3"> Menu</li>
+                            <!--========-->
+                            <li>
+                                <a class="text-base hover:underline" href="/"> HOME</a>
+                            </li>
+                            <!--========-->
+                            <li>
+                                <a class="text-base hover:underline" href="#">ABOUT US</a>
+                            </li>
+                            <!--========-->
+                            <li>
+                                <a class="text-base hover:underline" href="#">WHAT WE DO</a>
+                            </li>
+                            <!--========-->
+                            <li>
+                                <a class="text-base hover:underline" href="#">Ways To Give</a>
+                            </li>
+                            <!--========-->
+                            <li>
+                                <a class="text-base hover:underline" href="#">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--========-->
+                <div class=" md:col-span-2 pb-10 lg:pb-0">
+                    <!--========-->
+                    <p class=" uppercase font-extrabold text-lg mb-7 font-poppins text-sky-850">CONTACT US</p>
+                    <!--========-->
+                    <form  action="#">
+                        <!--========-->
+                        <div class="grid grid-cols-2 gap-2">   
+                            <!--========-->
+                            <input
+                                class="bg-white rounded-sm border border-neutral-400 px-3 py-2.5 text-neutral-700 placeholder-neutral-700 outline-none"
+                                type="text" name="FULL NAME" placeholder="FULL NAME">
+                            <!--========-->
+                            <input
+                                class="bg-white rounded-sm border border-neutral-400 px-3 py-2.5 text-neutral-700 placeholder-neutral-700 outline-none"
+                                type="email" name="EMAIL ID" placeholder="EMAIL ID">
+                            <!--========-->
+                            <input
+                                class="bg-white rounded-sm border border-neutral-400 px-3 py-2.5 text-neutral-700 placeholder-neutral-700 outline-none"
+                                type="text" name="PHONE" placeholder="PHONE">
+                            <!--========-->
+                            <input
+                                class="bg-white rounded-sm border border-neutral-400 px-3 py-2.5 text-neutral-700 placeholder-neutral-700 outline-none"
+                                type="text" name="SUBJECT" placeholder="SUBJECT">
+                            <!--========-->
+                            <textarea
+                                class="h-28 resize-none bg-white col-span-2 rounded-sm border border-neutral-400 px-3 py-2.5 text-neutral-700 placeholder-neutral-700 outline-none"
+                                name="MESSAGE" placeholder="MESSAGE"></textarea>
+                        </div>
+                        <!--========-->
+                        <button type="submit"
+                            class=" mt-2 outline-none uppercase font-poppins xl:text-lg md:text-base text-sm font-semibold lg:px-6 lg:py-3 px-4 py-2 bg-amber-300 text-sky-850">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+            <!--========-->
+            <div class=" container xl:max-w-1175 mx-auto px-5 sm:px-0 pt-5 border-t-2 lg:border-t-0 border-sky-850">
+                <!--========-->
+                <p class=" md:text-base text-sm font-medium font-mulish">Copyright © 2022 All Rights Reserved</p>
+            </div>
+        </footer>
+        
+        <!---->
+        <script src="js/alpine.min.js" defer></script>
+    </body>
+</html>
