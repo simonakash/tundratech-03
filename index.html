@@ -18,7 +18,8 @@
         <!--------->
         <title>South Peninsula Hospital Foundation</title>
 
-
+        <!-----Swiper Js css---->
+        <link rel="stylesheet" href="css/swiper-bundle.min.css" />
         <!-----Tailwind css---->
         <link rel="stylesheet" href="output/tailwind.css">
     </head>
@@ -28,12 +29,12 @@
         <header class=" relative z-50">
             <!--========-->
             <div @scroll.window="sticky= (window.pageYOffset > 100) ? false :true"
-                :class="{'fixed drop-shadow-2xl py-0.5' : !sticky,' py-2 pb-4' : sticky}"
-                class="z-50 bg-white duration-500 filter right-0 top-0 left-0">
+                :class="{'fixed drop-shadow-2xl pb-2' : !sticky,'pb-5' : sticky}"
+                class="z-50 bg-white duration-700 filter right-0 top-0 left-0 pt-2">
                 <!--========-->
                 <nav class="container xl:max-w-1175 mx-auto px-5 sm:px-0 flex items-center justify-between relative z-50 gap-5">
                     <!--====logo====-->
-                    <div :class="{'md:p-7 p-6 -mb-10' : !sticky,'md:p-8 p-5 md:-mb-16 -mb-14' : sticky}" class=" rounded-full bg-white duration-500 ">
+                    <div :class="{'md:p-5 p-3 -mb-10 w-36' : !sticky,'md:p-6 p-2 md:-mb-16 -mb-14 w-auto' : sticky}" class=" rounded-full bg-white duration-700 ">
                         <a href="/">
                             <!--========-->
                             <img height="100%" width="100%" class="w-auto h-auto" src="images/Logo/logo.png" alt="//">
@@ -51,11 +52,22 @@
         <!--====================main====================-->
         <main>
             <!-- ==========section 001========== -->
-            <section class="duration-1000 bg-cover bg-center bg-no-repeat lg:h-660 h-500 relative" style="background-image: url('images/Home/bg1.jpg');">
+            <section class="relative duration-1000 lg:h-660 h-500">
                 <!--========-->
-                <div class=" container xl:max-w-1175 mx-auto px-5 sm:px-0 min-h-full flex items-end justify-center relative">
+                <div id="mySwiper1" class="swiper h-full">
                     <!--========-->
-                    <div class=" text-white text-center py-20">
+                    <div class="swiper-wrapper h-full">
+                        <!--========-->
+                        <div class="swiper-slide">
+                            <!--========-->
+                            <img height="100%" width="100%" class="w-full h-full" src="images/Home/bg1.jpg" alt="//">
+                        </div>
+                    </div>
+                </div>
+                <!--========-->
+                <div class="absolute w-full top-0 left-0 right-0 bottom-0 z-20 container xl:max-w-1175 mx-auto px-5 sm:px-0 min-h-full flex items-end justify-center">
+                    <!--========-->
+                    <div class=" text-white text-center py-28">
                         <!--========-->
                         <h1 class=" font-black font-poppins uppercase xl:text-6xl md:text-5xl sm:text-4xl text-3xl">Oysters on the Bay</h1>
                         <!--========-->
@@ -240,7 +252,9 @@
                                 <!--========-->
                                 <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
                                     <!--====more data show end====-->
-                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">We understand that a community cannot improve wellness if we experience housing insecurity. We are developing and
+                                    <p x-ref="container1"
+                                    x-bind:style="morecontent == true ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''" 
+                                    class="text-ellipsis overflow-hidden relative transition-all max-h-20 duration-1000">We understand that a community cannot improve wellness if we experience housing insecurity. We are developing and
                                     encouraging community-wide discussions in order to come to workable, locally-led solutions to the housing challenges.<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos repellat et esse rem sapiente asperiores inventore harum laudantium, quaerat nesciunt.</p>
                                     <!--====more data show end====-->
                                 </div>
@@ -250,7 +264,6 @@
                                         class="outline-none font-extrabold lg:px-5 lg:py-3 py-2 px-4 lg:text-sm text-xs uppercase font-mulish  bg-amber-300 text-sky-850">READ
                                         MORE</button>
                                 </div>
-                            
                             </div>
                         </div>
                         <!--========-->
@@ -281,7 +294,9 @@
                                 <!--========-->
                                 <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
                                     <!--====more data show end====-->
-                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">We are dedicated to promoting opportunities for students in the area. SPH Foundation currently offers scholarships for
+                                    <p x-ref="container1"
+                                    x-bind:style="morecontent == true ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''"
+                                    class="text-ellipsis overflow-hidden relative transition-all max-h-20 duration-1000">We are dedicated to promoting opportunities for students in the area. SPH Foundation currently offers scholarships for
                                     students looking to earn their CNA certification and another scholarship in partnership with Allied Health. Over two
                                     decades, we have funded ___ scholarships for local students. We seek to expand these opportunities and with your help to
                                     fund more fields of study.</p>
@@ -324,7 +339,9 @@
                                 <!--========-->
                                 <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
                                     <!--====more data show end====-->
-                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">Over the years, we have invested to ensure the staff and visitors at SPH have access to facilities.<br>Over the years, we have invested to ensure the staff and visitors at SPH have access to facilities.</p>
+                                    <p x-ref="container1"
+                                    x-bind:style="morecontent == true ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''"
+                                    class="text-ellipsis overflow-hidden relative transition-all max-h-20 duration-1000">Over the years, we have invested to ensure the staff and visitors at SPH have access to facilities.<br>Over the years, we have invested to ensure the staff and visitors at SPH have access to facilities.</p>
                                     <!--====more data show end====-->
                                 </div>
                                 <!--====button====-->
@@ -391,7 +408,9 @@
                                 <!--========-->
                                 <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
                                     <!--====more data show end====-->
-                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">SPHF has been committed to building and sponsoring programs which have contributed to the wellbeing of members in our
+                                    <p x-ref="container1"
+                                    x-bind:style="morecontent == true ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''"
+                                    class="text-ellipsis overflow-hidden relative transition-all max-h-20 duration-1000">SPHF has been committed to building and sponsoring programs which have contributed to the wellbeing of members in our
                                     region,<br>SPHF has been committed to building and sponsoring programs which have contributed to the wellbeing of members in our
                                     region,</p>
                                     <!--====more data show end====-->
@@ -435,7 +454,9 @@
                                 <!--========-->
                                 <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
                                     <!--====more data show end====-->
-                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">Every year, the Foundation hosts an opportunity to mingle, connect, and celebrate our accomplishments.<br>Every year, the Foundation hosts an opportunity to mingle, connect, and celebrate our accomplishments.</p>
+                                    <p x-ref="container1"
+                                    x-bind:style="morecontent == true ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''"
+                                    class="text-ellipsis overflow-hidden relative transition-all max-h-20 duration-1000">Every year, the Foundation hosts an opportunity to mingle, connect, and celebrate our accomplishments.<br>Every year, the Foundation hosts an opportunity to mingle, connect, and celebrate our accomplishments.</p>
                                     <!--====more data show end====-->
                                 </div>
                                 <!--====button====-->
@@ -480,7 +501,9 @@
                                 <!--========-->
                                 <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
                                     <!--====more data show end====-->
-                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">The SPHF understands that with any hospital budget, there are requests which don’t get funded. Working hand-in-hand with
+                                    <p x-ref="container1"
+                                    x-bind:style="morecontent == true ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''"
+                                    class="text-ellipsis overflow-hidden relative transition-all max-h-20 duration-1000">The SPHF understands that with any hospital budget, there are requests which don’t get funded. Working hand-in-hand with
                                     the Hospital,<br>The SPHF understands that with any hospital budget, there are requests which don’t get funded. Working hand-in-hand with
                                     the Hospital,</p>
                                     <!--====more data show end====-->
@@ -527,7 +550,9 @@
                                 <!--========-->
                                 <div class="font-mulish lg:text-base md:text-sm text-xs md:my-6 my-3">
                                     <!--====more data show end====-->
-                                    <p x-bind:class="{'limit-line':!morecontent}" class="text-ellipsis overflow-hidden">Working with a wide variety of community members, we have prioritized regional conversations on organization, funding,
+                                    <p x-ref="container1"
+                                    x-bind:style="morecontent == true ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''"
+                                    class="text-ellipsis overflow-hidden relative transition-all max-h-20 duration-1000">Working with a wide variety of community members, we have prioritized regional conversations on organization, funding,
                                     and access to affordable childcare.<br>Working with a wide variety of community members, we have prioritized regional conversations on organization, funding,
                                     and access to affordable childcare.</p>
                                     <!--====more data show end====-->
@@ -995,5 +1020,18 @@
         
         <!---->
         <script src="js/alpine.min.js" defer></script>
+        <!-----Swiper Js script---->
+        <script src="js/swiper-bundle.min.js"></script>
+        
+        <script>
+           /*-----------------swiper 001----------------------*/
+            var swiper = new Swiper("#mySwiper1", {
+                loop: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+            });
+        </script>
     </body>
 </html>
